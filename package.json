@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "Descripcion del proyecto",
     "scripts": {
-        "test:web": "yarn run chimp"
+        "test:web": "yarn run chimp --watch"
     },
     "main": "index.js",
     "author": "William Bork <GITHUB: WilliamBork33>",

@@ -17,7 +17,7 @@ module.exports =  function() {
     this.Then(/^the login attempt succeeded$/, function () {
         landingPage.tabBar.waitForExist();
         expect(landingPage.tabBar.isVisible()).not.toContain(false);
-        browser.pause(60000);
+        //browser.pause(5000);
 
     });
 
