@@ -1,7 +1,7 @@
 module.exports = {
 
     watch: false,
-    watchTags: '@watch, @focus',
+    watchTags: '@watch, @focus, @login, @cars',
     path: './features/',
     format: 'pretty',
     tags: ['~@ignore', '~@pending'],
