@@ -1,4 +1,4 @@
-@watch
+@cars
 Feature: Cars
 
     As a client I should be able to search cars after login

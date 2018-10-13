@@ -2,18 +2,16 @@ import { Page } from './page';
 
 class CarsPage extends Page {
 
+    get locationBox() { return browser.element('#s2id_carlocations > a'); }
+    get pickUpLocation () { return browser.element('#select2-drop > div > input'); }
+    get locationBox2() { return browser.element('#s2id_carlocations > a'); }
+    get dropOffLocation () { return browser.element('#select2-drop > div > input'); }
 
-    get carsTab() { return browser.elements('#collapse > ul.nav.navbar-nav.go-right > li.main-lnk.go-right.active > a'); }
-
-    /* 
-    get tabBar()      { return browser.elements('.profile-tabs > li'); }
-    get bookings()    { return this.tabBar.value[0]; }
-    get profile()     { return this.tabBar.value[1]; }
-    get whishlist()   { return this.tabBar.value[2]; }
-    get newsletter()  { return this.tabBar.value[3]; }
-    get hotels()      { return browser.elements('#bookings > .row').value; }
- */
+    carsURL() {
+        browser.url('http://www.phptravels.net/cars');
+    }
+    
 
 }
-
+ 
 export default new CarsPage();
