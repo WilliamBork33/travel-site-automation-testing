@@ -4,7 +4,8 @@ Automation Test Program for a Travel Services Website http://www.phptravels.net/
 
 ## Known Issues to Fix
 
-- Want to incorporate before hooks and after hooks.
+- Slider control for price range slider isn't working right now.
+- Want to incorporate before hooks and after hooks correctly.
 
 
 ### Self-Reminder For Starting This Project
