@@ -1,7 +1,7 @@
 import { Page } from './page';
 
 class CarsPage extends Page {
-
+    
     // Get Search Location Elements
     get locationBox()       { return browser.element('#s2id_carlocations > a'); }
     get pickUpLocation ()   { return browser.element('#select2-drop > div > input'); }

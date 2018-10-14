@@ -3,6 +3,8 @@ import landingPage from '../page_objects/landing.page';
 
 module.exports =  function() {
 
+    //this.Before({tags: ['@cars']}, function () {
+
     this.Given(/^a client is on the login page$/, function () {
         loginPage.open(false);
         loginPage.email.waitForVisible();
@@ -20,5 +22,7 @@ module.exports =  function() {
         //browser.pause(5000);
 
     });
+
+    //})
 
 }

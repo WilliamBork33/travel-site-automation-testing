@@ -7,6 +7,8 @@ import landingPage from '../page_objects/landing.page';
 
 module.exports =  function() {
 
+  //this.After({tags: ['@login']}, function () {
+
     this.Given(/^a client is on the cars page$/, function () {
         // Sets URL to Cars Search
         carsPage.carsURL();
@@ -54,4 +56,5 @@ module.exports =  function() {
         carsPage.isExisting();
       });
 
+      //});
 }
